@@ -162,7 +162,7 @@ Testimonial
 }
 
 .testimonial-info {
- font-size: 16px;
+ font-size: 13px;
 }
 
 @media screen and (max-width:768px) {
@@ -177,7 +177,7 @@ Testimonial
  .testimonial-info {
   width: 580px;
   height: 90px;
-
+  font-size: 16px;
  }
 
  .testimonial-img-container {
