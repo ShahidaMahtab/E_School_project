@@ -1,0 +1,226 @@
+/* font style */
+
+/* banner syle */
+.primaryColor {
+ background: #21B573;
+}
+
+.primary-font-color {
+ color: #21B573;
+}
+
+.banner-bg-ebook {
+ background: url(../images/background-banner.png);
+}
+
+.btn-ebook {
+ display: inline-block;
+ background: #21B573;
+ padding: 0.4rem 0.9rem;
+ border-radius: 20px;
+ text-decoration: none;
+}
+
+.text-light-ebook {
+ color: #ffff;
+}
+
+.banner-text-size {
+ text-transform: capitalize;
+ font-size: 2rem;
+}
+
+.orange {
+ color: orangered;
+}
+
+.banner-small-text {
+ width: 403px;
+ height: 85px;
+ font-size: 1rem;
+ line-height: 36px;
+}
+
+.section-center {
+ width: 85vw;
+ margin: 4rem auto 2rem auto;
+ max-width: 1440px;
+}
+
+@media screen and (min-width:992px) {
+ .banner-text-size {
+  width: 405px;
+  height: 140px;
+ }
+
+ .banner-text-size {
+  text-transform: capitalize;
+  font-size: 3rem;
+ }
+
+}
+
+@media screen and (min-width:1170px) {
+ .banner {
+  min-height: calc(100vh - 69px);
+ }
+}
+
+/* end of banner */
+/* ===========
+Books
+========= */
+.books-text h3 {
+ margin-top: 22px;
+ width: 138px;
+ height: 36px;
+ font-size: 24px;
+ text-transform: capitalize;
+ text-align: center;
+}
+
+.book-p {
+ font-size: 1rem;
+ text-transform: capitalize;
+
+}
+
+.book-img-container {
+ width: 270px;
+ height: 270px;
+ text-align: center;
+ border-radius: 10px;
+}
+
+
+@media screen and (max-width:992px) {
+ .book-img-container {
+  margin: 0 auto;
+ }
+}
+
+/* end of books */
+/* 
+=========
+courses
+============
+ */
+.course-container {
+ border: 10px solid #fff;
+ padding: 24px 20px 19px 19px;
+ border-radius: 14px;
+}
+
+.courses-p {
+ font-size: 1rem;
+ color: grey;
+ font-weight: bold;
+ text-transform: capitalize;
+}
+
+.courses-title {
+ text-transform: capitalize;
+ width: 273px;
+ height: 36px;
+ font-size: 24px;
+ font-weight: 500;
+ color: #313131;
+}
+
+
+
+@media screen and (min-width:1170px) {
+ .courses img {
+  width: 331px;
+  height: 234px;
+  border-radius: 14px;
+ }
+
+ .course-container {
+  width: 370px;
+  height: 480px;
+ }
+}
+
+/* end of courses */
+/* 
+=============
+Testimonial
+============
+ */
+.testimonial-img-container img {
+ width: 120px;
+ height: 120px;
+}
+
+.testimonial-img-container {
+ margin: 0 auto;
+}
+
+.testimonial-info {
+ font-size: 16px;
+}
+
+@media screen and (max-width:768px) {
+ .testimonial-img-container {
+  text-align: center;
+  display: block;
+  padding: 1rem 0;
+ }
+}
+
+@media screen and (min-width:769px) {
+ .testimonial-info {
+  width: 580px;
+  height: 90px;
+
+ }
+
+ .testimonial-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+}
+
+/* end of testimonial */
+/* footer */
+footer {
+ background: #222;
+ color: #fff;
+}
+
+
+th,
+td {
+ text-transform: capitalize;
+ padding: 0 1rem;
+}
+
+
+
+@media screen and (min-width:768px) {
+ .footer-text {
+  width: 364px;
+  height: 60px;
+ }
+
+ .footer-contents {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ table {
+  border-collapse: collapse;
+  margin: 1rem 2rem 2rem 1rem;
+ }
+
+ .footer-text {
+  padding: 2rem;
+ }
+
+ th,
+ td {
+  padding: 0 1.5rem;
+ }
+}
